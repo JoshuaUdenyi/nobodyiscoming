@@ -3,14 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Hey You!</title>
+    <title>Centered Text with Header</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background-color: #000; /* Black background */
+            color: #fff; /* White text color */
+        }
+        .header {
+            font-size: calc(20px + 3vw); /* Responsive font size for header */
+            margin-bottom: 20px; /* Space between header and main text */
+            text-align: center;
+        }
+        .center-text {
+            text-align: center;
+            font-size: calc(16px + 2vw); /* Responsive font size for main text */
+            padding: 0 20px; /* Padding for better readability on smaller screens */
+        }
+    </style>
 </head>
 <body>
-    <h1>
-        Nobody is coming to save You!!!!!!!!
-    </h1>
-
-    <h6>🤫🤫🤫🤫🤫🤫🤫🤫</h6>
+    <div class="header">
+        Ozeba Ozeba Ozeba
+    </div>
+    <div class="center-text">
+        GO and DO your IT Computer Science People<br>
+        Bring 50k make i teach you work well 😂
+    </div>
 </body>
 </html>
